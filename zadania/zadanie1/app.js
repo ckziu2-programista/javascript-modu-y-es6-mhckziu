@@ -1,5 +1,5 @@
 import {Rectangle} from './rectangle.js';
-
-console.log(new Rectangle(5, 10).area());
-console.log(new Rectangle(5, 10).perimeter());
+let o = new Rectangle(10, 5);  
+console.log(o.perimeter());
+console.log(o.area());
 
