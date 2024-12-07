@@ -1,4 +1,4 @@
-export default class Rectangle {
+class Rectangle {
     height;
     width;
 
@@ -15,3 +15,5 @@ export default class Rectangle {
         return (this.height + this.height + this.width + this.width);
     }
 }   
+
+export default Rectangle;
