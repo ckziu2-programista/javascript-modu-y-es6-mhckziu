@@ -1,6 +1,6 @@
-export class Rectangle {
-    // height;
-    // width;
+export default class Rectangle {
+    height;
+    width;
 
     constructor(height, width) {
       this.height = height;
