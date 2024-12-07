@@ -1,19 +1,17 @@
 class Rectangle {
-    height;
-    width;
-
-    constructor(height, width) {
-      this.height = height;
+    constructor(width, height) {
       this.width = width;
+      this.height = height;
     }
-
+  
     area() {
-        return (this.height * this.width);
+      return this.width * this.height;
     }
-
+  
     perimeter() {
-        return (this.height + this.height + this.width + this.width);
+      return 2 * (this.width + this.height);
     }
-}   
-
-export default Rectangle;
+  }
+  
+  export default Rectangle;
+  
